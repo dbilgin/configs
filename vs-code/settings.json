@@ -1,0 +1,65 @@
+{
+  "editor.fontSize": 13,
+  "editor.fontFamily": "Dank Mono, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "Dank Mono, Source Code Pro, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.lineHeight": 0,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "telemetry.enableTelemetry": false,
+  "workbench.colorTheme": "Monokai",
+  "editor.renderIndentGuides": false,
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  // "liveServer.settings.port": 5555,
+  "window.zoomLevel": -1,
+  // scss
+  // "scssLint.configDir": "/",
+  // styelint
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  // javascript
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": true,
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "html.erb": "html"
+  },
+  "files.associations": {
+    ".stylelintrc": "json",
+    ".eslintignore": "ignore"
+  },
+  // theme overrides
+  "workbench.colorCustomizations": {
+    // "statusBar.background": "#303030",
+    // "statusBar.noFolderBackground": "#222225",
+    // "statusBar.debuggingBackground": "#008eb9"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.packageManager": "yarn",
+  "editor.renderWhitespace": "selection",
+  "workbench.editor.showTabs": true,
+  "workbench.statusBar.visible": true,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "editor.suggestSelection": "first",
+  "git.confirmSync": false,
+  // "editor.formatOnSave": true,
+  "dart.debugExternalLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "launch": {
+  
+  },
+}
