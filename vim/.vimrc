@@ -3,6 +3,7 @@ filetype plugin indent on  " enable file type detection
 syntax enable
 
 " settings
+set textwidth=80
 set autoindent  " follow indentation of last line
 set autoread  " auto-detect file changes
 set backspace=2
