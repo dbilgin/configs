@@ -59,7 +59,9 @@
   // "editor.formatOnSave": true,
   "dart.debugExternalLibraries": false,
   "dart.debugSdkLibraries": false,
-  "launch": {
-  
-  },
+  "launch": {},
+  "[python]": {
+    "editor.rulers": [80],
+    "editor.tabSize": 4
+  }
 }
