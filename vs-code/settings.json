@@ -17,10 +17,7 @@
   },
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
-  // "liveServer.settings.port": 5555,
-  "window.zoomLevel": -1,
-  // scss
-  // "scssLint.configDir": "/",
+  "window.zoomLevel": 0,
   // styelint
   "css.validate": false,
   "less.validate": false,
@@ -63,5 +60,19 @@
   "[python]": {
     "editor.rulers": [80],
     "editor.tabSize": 4
-  }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+	"debug.openDebug": "openOnDebugBreak",
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false,
+	}
 }
