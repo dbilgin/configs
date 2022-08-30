@@ -8,7 +8,6 @@
   "editor.detectIndentation": false,
   "telemetry.enableTelemetry": false,
   "workbench.colorTheme": "Monokai",
-  "editor.renderIndentGuides": false,
   "editor.trimAutoWhitespace": true,
   "files.trimTrailingWhitespace": true,
   "workbench.startupEditor": "newUntitledFile",
@@ -54,8 +53,6 @@
   "editor.suggestSelection": "first",
   "git.confirmSync": false,
   // "editor.formatOnSave": true,
-  "dart.debugExternalLibraries": false,
-  "dart.debugSdkLibraries": false,
   "launch": {},
   "[python]": {
     "editor.rulers": [80],
@@ -65,6 +62,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "debug.openDebug": "openOnDebugBreak",
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -74,5 +73,6 @@
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
-  }
+  },
+  "editor.guides.indentation": false
 }
